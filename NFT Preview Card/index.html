@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-image-wrapper">
+        <img class="card-image" src="images/image-equilibrium.jpg" />
+        <div class="card-eye-bg">
+          <object
+            class="card-eye"
+            data="images/icon-view.svg"
+            type="image/svg+xml"
+          ></object>
+        </div>
+      </div>
+
+      <div class="card-title">Equilibrium #3429</div>
+      <p class="card-p">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="card-price">
+        <object data="images/icon-ethereum.svg" type="image/svg+xml"></object>
+        &nbsp;&nbsp;0.041 ETH
+      </div>
+      <div class="card-duration">
+        <object data="images/icon-clock.svg" type="image/svg+xml"></object>
+        &nbsp;&nbsp;3 days left
+      </div>
+      <hr />
+      <div class="creator">
+        <img src="images/image-avatar.png" />
+        <p>Creation of <span class="card-creator">Jules Wyvern</span></p>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Robbert Doon</a>.
+    </div> -->
+  </body>
+</html>
